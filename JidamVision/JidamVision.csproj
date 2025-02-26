@@ -112,6 +112,7 @@
     <Compile Include="Core\ImageSpace.cs" />
     <Compile Include="Core\InspStage.cs" />
     <Compile Include="Core\PreviewImage.cs" />
+    <Compile Include="Grab\HikRobotCam.cs" />
     <Compile Include="ImageViewCCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -193,7 +194,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Grab\" />
     <Folder Include="UserControl\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
